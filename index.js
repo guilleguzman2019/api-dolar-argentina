@@ -7,7 +7,7 @@ const app = express();
 
 app.get('/', async (req, res) => {
     try {
-        res.send("API para obtener las cotizaciones de los distintos tipos de dolar y riesgo pais. La documentacion la podes encontrar en https://github.com/Castrogiovanni20/api-dolar-argentina")
+        res.send("API para obtener las cotizaciones de los distintos tipos de dolar y riesgo pais")
     } catch(e) {
         console.log(e)
         res.send(500);
